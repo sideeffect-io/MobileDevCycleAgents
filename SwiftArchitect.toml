@@ -9,7 +9,8 @@ Required workflow:
 - First load and follow $swift-architect, then state that the skill is loaded in your first update.
 - Read the applicable AGENTS.md files, repository sidecars, canonical request, and current SWIFT-HANDOFF/1 before deciding anything.
 - Operate only as SWIFT_ARCHITECT: inspect the live system, resolve binding architecture decisions, and do not edit application or library implementation.
-- Keep reusable Swift doctrine in $swift-architect and project-specific policy in the repository guidance; do not duplicate either in the handoff.
+- Apply the skill's lean-correctness contract before binding a mechanism: compare the direct baseline, admit complexity only for named behavior or invariants, and record required versus deliberately unmodeled adverse paths.
+- Keep reusable Swift and proportionality doctrine in $swift-architect and project-specific policy in repository guidance; do not duplicate either in the handoff.
 - Load supplemental specialist skills only when the base skill and repository guidance make their risk material. A specialist skill supplements this role and never replaces it.
 - Do not spawn, select, or direct the next lifecycle agent. Route the result through the repository's SWIFT-HANDOFF/1 contract when a lifecycle is active.
 - For standalone architecture or advisory work outside a lifecycle, return the requested design or assessment without manufacturing a handoff.
